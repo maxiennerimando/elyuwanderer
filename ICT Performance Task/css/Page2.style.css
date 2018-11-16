@@ -1,0 +1,431 @@
+* {box-sizing: border-box}
+a{
+  text-decoration: none;
+  list-style: none;
+}
+.image {
+  display: block;
+}
+
+.choose-me{
+  font-family: Nature Beauty Personal Use ;
+  padding: 10px 10px;
+  margin-left: 580px;
+  color: #70b1db;
+  font-size: 48px;
+}
+
+.first-article {
+  font-family: Bahnschrift;
+  color: #0a0f74;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+  font-size: 16px;
+}
+/* MAIN-HEADER */
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  text-align: left;
+  font-family: Nature Beauty Personal Use;
+  color: #002157;
+  font-size: 40px;
+}
+
+.eeay {
+  text-align: center;
+  margin-top: 0px;
+  color: #002157;
+  font-family: Helvetica Inserat Lt Std;
+  font-size: 30px;
+}
+
+.logo {
+  margin-left: 240px;
+}
+
+.second-header {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: Bahnschrift;
+}
+
+.button {
+  background: #002157;
+  opacity: 0.8;
+}
+
+.button {
+  color: #ffb805;
+  padding: 10px 15px;
+  box-shadow: 0 10px 15px #000;
+  font-size: 20px;
+}
+
+.button:hover {
+  color: white;
+  font-size: 23px;
+}
+
+#main-menu {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.search-box {
+  position: absolute;
+  top: 13%;
+  left: 88%;
+  transform: translate(-50%,-50%);
+  background: #002157;
+  height: 60px;
+  border-radius: 40px; 
+  padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-bttn{
+  background: white;
+  color: #002157;
+}
+
+.search-bttn {
+  color: #ffb805;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  background: #002157;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.main-header {
+  padding: 2px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+.main-header {
+  background-position: center;
+  margin-bottom: 0px;
+  padding: 2px;
+  background-image: url(../images/1.1.jpg);
+  background-repeat: no repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+/* THIS IS THE FIRST ARTICLE AND PICTURE */
+
+.article-picture{
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.article-left-one{
+  padding: 200px;
+  background-image: url(../images/beachbum.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 5px;
+}
+
+
+.article-one {
+  text-align: justify;
+  padding: 5px ;
+  margin-left: 700px;
+  margin-right: 50px;
+  color: #5797ba;
+ 
+}
+
+.article-one h2 {
+  font-family: Bahnschrift;
+  margin-top: 0px;
+  padding: 20px; 
+}
+
+.article-one p{
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+  font-size: 24;
+}
+
+/* THIS IS THE SECOND ARTICLE AND PICTURE */
+
+.article-two {
+  text-align: justify;
+  padding: 60px ;
+  color: #3d4b4e;
+  float: right;
+  margin-right: 750px;
+  background: #5797ba;
+  margin-left: 0px;
+}
+
+.article-two h2 {
+  font-family: Bahnschrift;
+  margin-top: 5px;
+  padding: 20px;
+}
+
+.article-two p{
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+  font-size: 20;
+}
+.article-picture-two{
+  width: 50%;
+  padding: 10px;
+  margin-left: 750px;
+  margin-top: 176px;
+}
+
+.article-right-two{
+  padding: 200px;
+  background-image: url(../images/coffeelibrary.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 10px;
+ }
+
+/* THIS IS THE THIRD ARTICLE AND PICTURE */
+
+.article-picture-three{
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+
+.article-left-three{
+  padding: 200px;
+  background-image: url(../images/tagpuan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 5px;
+}
+
+.article-three {
+  background: #3d4b4e;
+  text-align: justify;
+  padding: 74px 50px ;
+  color: white;
+  margin-left: 746px; 
+  margin-right: 10px;
+}
+
+.article-three h2 {
+  font-family: Bahnschrift;
+  margin-top: 5px;
+  padding: 20px; 
+}
+
+.article-three p{
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+  font-size: 20;
+}
+
+/* THIS IS THE FOURTH ARTICLE AND PICTURE */
+
+.article-four {
+  text-align: left;
+  padding: 40px ;
+  color: #dad7b8;
+  float: right;
+  margin-right: 850px;
+  margin-left: 50px;
+}
+
+.article-four h2 {
+  font-family: Bahnschrift;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.article-four p{
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+  font-size: 20;
+}
+.article-picture-four{
+  width: 50%;
+  padding: 10px;
+  margin-left: 746px;
+  margin-top: 25px;
+}
+
+.article-right-four{
+  padding: 200px;
+  background-image: url(../images/elunioncoffee.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 10px;
+}
+/* THIS IS THE FIFTH ARTICLE AND PICTURE */
+
+.article-picture-five{
+  width: 50%;
+  padding: 10px;
+  float: left;
+}
+
+.article-left-five{
+  padding: 200px;
+  background-image: url(../images/flotsam.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 1px;
+}
+
+.article-five{
+  background: #002157;
+  text-align: justify;
+  padding: 75px 50px ;
+  color: white;
+  margin-left: 760px; 
+  margin-right: 10px;
+}
+
+.article-five h2 {
+  font-family: Bahnschrift;
+  margin-top: 5px;
+  padding: 20px; 
+}
+
+.article-five p{
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+  font-size: 20;
+}
+
+/* THIS IS THE SIXTH ARTICLE AND PICTURE */
+
+.article-six {
+  text-align: justify;
+  padding: 20px ;
+  color: #70b1db ;
+  float: right;
+  margin-right: 750px;
+  margin-left: 40px;
+}
+
+.article-six h2 {
+  font-family: Bahnschrift;
+  margin-top: 1px;
+  padding: 20px;
+}
+
+.article-six p{
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+  font-size: 20;
+}
+.article-picture-six{
+  width: 50%;
+  padding: 10px;
+  margin-left: 746px;
+}
+
+.article-right-six{
+  padding: 200px;
+  background-image: url(../images/circle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 10px;
+}
+/* THIS IS THE FOOTER */
+
+a{
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: center;
+  font-family: Bahnschrift;
+  font-size: 12px;
+}
+.footer {
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+}
+
+.footer {
+  background: #002157;
+  opacity: 0.7;
+}
+
+.fbutton {
+  font-size: 15px;
+  color: white;
+}
+
+.fbutton:hover {
+  font-size: 18px;
+}
+.details {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-gap: 150px;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.nums {
+  list-style: none;
+}
+
+.details {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-gap: 150px;
+  grid-template-columns: repeat(3,1fr);
+}

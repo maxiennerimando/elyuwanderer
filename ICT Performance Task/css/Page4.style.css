@@ -1,0 +1,390 @@
+body {
+	text-align: center;
+	color: black;
+}
+
+a { 
+	text-decoration: none;
+	list-style: none;
+}
+/* THIS IS THE MAIN HEADER */
+
+h1 {
+	text-align: left;
+	font-family: Nature Beauty Personal Use;
+	color: #002157;
+	font-size: 40px;
+}
+
+.eeay {
+	text-align: center;
+	margin-top: 0px;
+	color: #002157;
+	font-family: Helvetica Inserat Lt Std;
+	font-size: 30px;
+}
+
+.logo {
+	margin-left: 240px;
+}
+.second-header {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: Bahnschrift;
+}
+
+.button {
+	background: #002157;
+	opacity: 0.8;
+}
+
+.button {
+	color: #ffb805;
+	padding: 10px 15px;
+	box-shadow: 0 10px 15px #000;
+	font-size: 20px;
+}
+
+.button:hover {
+	color: white;
+	font-size: 23px;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.search-box {
+	position: absolute;
+	top: 13%;
+	left: 88%;
+	transform: translate(-50%,-50%);
+	background: #002157;
+	height: 40px;
+	border-radius: 40px; 
+	padding: 10px;
+}
+
+.search-box:hover > .search-txt{
+	width: 240px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-bttn{
+	background: white;
+	color: #002157;
+}
+
+.search-bttn {
+	color: #ffb805;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%; 
+	background: #002157;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+.search-txt {
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+.main-header {
+	padding: 2px;
+	margin-bottom: 10px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+.main-header {
+	background-position: center;
+	margin-bottom: 0px;
+	padding: 2px;
+	background-image: url(../images/1.1.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	opacity: 0.8;
+}
+.main-header2{
+	margin-bottom: 0px;
+}
+.choose {
+	color: #5797ba;
+	font-family: Nature Beauty Personal Use;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10px;
+}
+
+.checked {
+    color: orange;
+ }
+
+/* THREE PICTURES */
+ .container1 > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	p/*adding: 125px;*/
+	border:	5px black solid;
+	text-align:	center;
+	background: white;
+	color: black;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 300px;
+}
+
+.container1 {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+#box3:hover, #box4:hover, #box5:hover {
+	filter: grayscale(1);
+
+}
+#box3 {
+	grid-column: 1/2;
+	grid-row: 1/4;
+	font-family: verdana;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/moon.jpg);
+	transition: all .2s ease-out;
+}
+
+#box3 p, #box4 p, #box5 p {
+	font-family: Bahnschrift;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 0 0 15px #000;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  font-family: verdana;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+.button1:hover {
+	background:#3d4b4e;
+	color; gray;
+
+}
+.button1{ 
+	background:#5797ba;
+	color: white;
+	padding: 15px 25px;
+	font-family: Bahnschrift;
+	font-size: 20px;
+}
+.button1{
+	margin-top: 0 0 0 0px;
+}
+
+
+#box4 {
+	background-image: url(../images/camp.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#box5 {
+	grid-column: 3/4;
+	grid-row: 1/4;
+	background-image: url(../images/hihi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20px;
+}
+/*feeeedbaackkkk*/
+.main-article{
+	margin-bottom: 20px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 2fr 2fr;
+	font-family: Century Gothic;
+
+}
+.checked {
+    color: orange;
+}
+.chip {
+    display: inline-block;
+    padding: 0 0px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 15px;
+    background-color: #cdc9c9;
+    margin-left: -150px ;
+}
+
+.chip img {
+    float: left;
+    margin: 0 5px 0 -40px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+.beauty{
+	font-family: Avenir Lt Std;
+	font-style: 45 book;
+	margin-right: 40px;
+	margin-left: 40px;
+	color: #3d4b4e;
+}
+
+.beauty2{
+	font-family: Nature Beauty Personal Use;
+	font-size: 40px;
+	color: #5797ba;
+
+}
+/*Main-article left section*/
+.main-article-left {
+	padding: 30px 5px;
+	display: table-column-group;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	background-image: center ;
+	border: dotted #2e7392;
+}
+
+.main-article-left h2 {
+	margin-top: 5px;
+	font-family: Bahnschrift;
+	text-align: center;
+	color: #3d4b4e;
+
+}
+.main-article-left p {
+	margin-left: 100px;
+	text-align: justify;
+	margin-right: 100px;
+	font-family: avenir lt std;
+	font-style: 45 book;
+}
+
+
+.main-article-left div {
+	margin-left: -70px;
+	padding: 20 0 20 0px;
+	margin-right: -70px;
+}
+
+/* MAIN-ARTICLE RIGHT SECTION */
+
+.main-article-right {
+	
+	padding: 30px 5px;
+	display: table-column-group;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	background-image: center ;
+	border: dotted #2e7392;
+}
+.main-article-right h2 {
+	margin-top: -10px;
+	font-family: Bahnschrift;
+	color: #3d4b4e;
+}
+.main-article-right p {
+	margin-left: 100px;
+	text-align: justify;
+	margin-right: 100px;
+	font-family: avenir lt std;
+	font-style: 45 book;
+}
+
+
+.main-article-right div {
+	margin-left: -70px;
+	padding: 20 0 20 0px;
+	margin-right: -70px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: Bahnschrift;
+  font-size: 12px;
+}
+.footer {
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Avenir Lt Std;
+  font-style: 45 book; 
+}
+
+.footer {
+  background: #002157;
+  opacity: 0.7;
+}
+
+.fbutton {
+  font-size: 15px;
+  color: white;
+}
+
+.fbutton:hover {
+  font-size: 18px;
+}
+.details {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  display: grid;
+  grid-gap: 150px;
+  grid-template-columns: repeat(3,1fr);
+}
+.nums {
+  list-style: none;
+}
